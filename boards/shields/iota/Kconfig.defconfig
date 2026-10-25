@@ -8,6 +8,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_IOTA_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Iota R Test"
+
+endif
+
 if SHIELD_IOTA_LEFT || SHIELD_IOTA_RIGHT
 
 config ZMK_SPLIT
