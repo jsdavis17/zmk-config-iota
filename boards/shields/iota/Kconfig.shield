@@ -1,0 +1,6 @@
+config SHIELD_IOTA_LEFT
+    def_bool $(shields_list_contains,iota_left)
+
+config SHIELD_IOTA_RIGHT
+    def_bool $(shields_list_contains,iota_right)
+
